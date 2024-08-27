@@ -79,7 +79,7 @@ public class MyLinkedList {
     //    linkedList.addFirst(1);
     //    linkedList.addFirst(2);
     //    linkedList.addFirst(3);
-        //3->2->1
+        //3->2->1//
         linkedList.addLast(1);
         linkedList.addLast(2);
         linkedList.addLast(3);
