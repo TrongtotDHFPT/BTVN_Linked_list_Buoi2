@@ -1,5 +1,3 @@
-package mylinkedlist;
-
 public class Node {
     public int data;
     public Node next;
@@ -11,6 +9,13 @@ public class Node {
     {
         this.data  = data;
         this.next = null; // next mang kiểu dữ liệu Node  => cửa không đủ to để nhét next vào Node(thực tế là trỏ tới vị trí kế tiếp : mặc định là null)
+    }
+    public Node getNext() {
+        return next;
+    }
+
+    public int getData() {
+        return data;
     }
 
 }
